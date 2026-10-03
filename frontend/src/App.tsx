@@ -9,6 +9,8 @@ import Account from "./pages/Account";
 import RepairStatus from "./pages/RepairStatus";
 import Quotation from "./pages/Quotation";
 import Payment from "./pages/Payment";
+import Invoices from "./pages/Invoices";
+import Reviews from "./pages/Reviews";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="/repair-status" element={<RepairStatus />} />
         <Route path="/quotation" element={<Quotation />} />
         <Route path="/payment" element={<Payment />} />
+        <Route path="/invoices" element={<Invoices />} />
+        <Route path="/reviews" element={<Reviews />} />
       </Routes>
     </BrowserRouter>
   );
