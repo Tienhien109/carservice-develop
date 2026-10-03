@@ -7,6 +7,9 @@ import Appointments from "./pages/Appointments";
 import Cars from "./pages/Cars";
 import Account from "./pages/Account";
 import RepairStatus from "./pages/RepairStatus";
+import Quotation from "./pages/Quotation";
+import Payment from "./pages/Payment";
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +22,8 @@ function App() {
         <Route path="/cars" element={<Cars />} />
         <Route path="/account" element={<Account />} />
         <Route path="/repair-status" element={<RepairStatus />} />
+        <Route path="/quotation" element={<Quotation />} />
+        <Route path="/payment" element={<Payment />} />
       </Routes>
     </BrowserRouter>
   );
